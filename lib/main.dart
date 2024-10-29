@@ -42,7 +42,7 @@ class Main extends StatelessWidget {
                 theme: lighTheme,
                 darkTheme: darkTheme,
                 themeMode: themeMode,
-                home: OnboardingScreen(),
+                home: const OnboardingScreen(),
               );
             },
           );

@@ -1,6 +1,12 @@
+import 'package:blood_donation/core/di/service_lacator.dart';
+import 'package:blood_donation/core/locale/cubit/localizations_cubit.dart';
 import 'package:flutter/material.dart';
 
 ThemeData lighTheme = ThemeData.light().copyWith(
+  textTheme: Typography().white.apply(
+      fontFamily: getIt<LocalizationsCubit>().state.languageCode == "ar"
+          ? "ibm"
+          : "inter"),
   scaffoldBackgroundColor: Colors.white,
   colorScheme: ColorScheme(
     primary: Color(0xffA80000), // اللون الأساسي ليمثل الدم والحيوية

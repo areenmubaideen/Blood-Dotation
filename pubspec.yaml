@@ -38,3 +38,6 @@ flutter:
     - family: inter
       fonts:
         - asset: assets/fonts/inter/Inter_18pt-Regular.ttf
+    - family: "ibm"
+      fonts:
+        - asset: assets/fonts/ibm/IBMPlexSansArabic-Regular.ttf

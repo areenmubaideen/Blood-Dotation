@@ -1,4 +1,5 @@
 import 'package:blood_donation/app/public/choose_screen/view/choose_screen.dart';
+import 'package:blood_donation/core/locale/app_localiztions.dart';
 import 'package:blood_donation/core/style/colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -64,7 +65,7 @@ class OnboardingScreen extends StatelessWidget {
         ),
       ),
       body: OnBoardingSlider(
-        finishButtonText: 'Login',
+        finishButtonText: 'Login'.tr(context),
         onFinish: () {
           Navigator.push(
             context,
@@ -77,7 +78,7 @@ class OnboardingScreen extends StatelessWidget {
           backgroundColor: kDarkBlueColor,
         ),
         skipTextButton: Text(
-          'Skip',
+          'Skip'.tr(context),
           style: TextStyle(
             fontSize: 16,
             color: kDarkBlueColor,
@@ -117,7 +118,7 @@ class OnboardingScreen extends StatelessWidget {
                   height: 480,
                 ),
                 Text(
-                  'Join the Lifesaving Community ...',
+                  'onboarding_title1'.tr(context),
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: kDarkBlueColor,
@@ -129,7 +130,7 @@ class OnboardingScreen extends StatelessWidget {
                   height: 20,
                 ),
                 Text(
-                  'Donate blood to help those in need. Your single act can save multiple lives. Start making a difference today.',
+                  'onboarding_subtitle1'.tr(context),
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Theme.of(context)
@@ -155,7 +156,7 @@ class OnboardingScreen extends StatelessWidget {
                   height: 480,
                 ),
                 Text(
-                  'Easy Blood Donation Process',
+                  'onboarding_title2'.tr(context),
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: kDarkBlueColor,
@@ -167,7 +168,7 @@ class OnboardingScreen extends StatelessWidget {
                   height: 20,
                 ),
                 Text(
-                  'Find nearby donation centers, book appointments, and track your donations — all in one place. Making a positive impact has never been this simple.',
+                  'onboarding_subtitle2'.tr(context),
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Theme.of(context)
@@ -193,7 +194,7 @@ class OnboardingScreen extends StatelessWidget {
                   height: 480,
                 ),
                 Text(
-                  "Get Notified When You're Needed",
+                  "onboarding_title3".tr(context),
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: kDarkBlueColor,
@@ -205,7 +206,7 @@ class OnboardingScreen extends StatelessWidget {
                   height: 20,
                 ),
                 Text(
-                  'Receive alerts when there’s a blood shortage or when your blood type is urgently needed. Be ready to help at the right moment.',
+                  'onboarding_subtitle3'.tr(context),
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Theme.of(context)
