@@ -15,6 +15,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   ServiceLocator().init();
   await CacheHelper.init();
+
   runApp(Main());
 }
 
