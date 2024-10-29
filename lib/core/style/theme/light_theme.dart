@@ -7,7 +7,7 @@ ThemeData lighTheme = ThemeData.light().copyWith(
       fontFamily: getIt<LocalizationsCubit>().state.languageCode == "ar"
           ? "ibm"
           : "inter"),
-  scaffoldBackgroundColor: Colors.white,
+  //scaffoldBackgroundColor: Colors.white,
   colorScheme: ColorScheme(
     primary: const Color(0xffA80000),
     primaryContainer: Colors.red.shade100,
@@ -15,7 +15,7 @@ ThemeData lighTheme = ThemeData.light().copyWith(
     secondaryContainer: Colors.blueGrey.shade100,
     surface: Colors.grey.shade100,
     error: Colors.redAccent.shade400,
-    onPrimary: Colors.white,
+    onPrimary: Colors.black87,
     onSecondary: Colors.white,
     onSurface: Colors.black87,
     onError: Colors.white,

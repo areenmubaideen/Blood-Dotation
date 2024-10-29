@@ -76,7 +76,11 @@ class UserLoginScreen extends StatelessWidget {
                         crossAxisAlignment: WrapCrossAlignment.center,
                         alignment: WrapAlignment.center,
                         children: [
-                          Text("By logging, you agree to our".tr(context)),
+                          Text(
+                            "By logging, you agree to our".tr(context),
+                            style: TextStyle(
+                                color: Theme.of(context).colorScheme.onSurface),
+                          ),
                           GestureDetector(
                               onTap: () {},
                               child: Text(
@@ -85,7 +89,11 @@ class UserLoginScreen extends StatelessWidget {
                                     color:
                                         Theme.of(context).colorScheme.primary),
                               )),
-                          Text("and".tr(context)),
+                          Text(
+                            "and".tr(context),
+                            style: TextStyle(
+                                color: Theme.of(context).colorScheme.onSurface),
+                          ),
                           GestureDetector(
                               onTap: () {},
                               child: Text(
@@ -106,8 +114,11 @@ class UserLoginScreen extends StatelessWidget {
                   child: Wrap(
                     children: [
                       Text(
-                          "You don't have an account yet. Do you want to register an account?"
-                              .tr(context)),
+                        "You don't have an account yet. Do you want to register an account?"
+                            .tr(context),
+                        style: TextStyle(
+                            color: Theme.of(context).colorScheme.onSurface),
+                      ),
                       GestureDetector(
                           onTap: () {},
                           child: Text(

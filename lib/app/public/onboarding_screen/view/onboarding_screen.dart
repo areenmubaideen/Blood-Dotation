@@ -30,6 +30,8 @@ class OnboardingScreen extends StatelessWidget {
                   themeMode.updateTheme(ThemeMode.light);
                 } else if (themeMode.state == ThemeMode.light) {
                   themeMode.updateTheme(ThemeMode.dark);
+                } else {
+                  themeMode.updateTheme(ThemeMode.light);
                 }
               },
               child: Icon(
