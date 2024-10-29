@@ -13,7 +13,7 @@ class ThemeCubit extends Cubit<ThemeMode> {
   loadTheme() async {
     final theme =
         await CacheHelper.getSaveData(key: "theme") ?? ThemeMode.system;
-
+    print(theme);
     if (theme is ThemeMode) {
       emit(theme);
     } else if (theme is String && theme == 'ThemeMode.light') {

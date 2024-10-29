@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 class BuildChooseOptionCard extends StatelessWidget {
   final String title;
-
   final String image;
   final VoidCallback onTap;
   final bool isSelected;
@@ -49,7 +48,7 @@ class BuildChooseOptionCard extends StatelessWidget {
                       ? Theme.of(context).colorScheme.surface
                       : Theme.of(context).colorScheme.onSurface,
                   fontSize: 18,
-                  fontWeight: FontWeight.w500,
+                  fontWeight: FontWeight.bold,
                 ),
               ),
             ],
