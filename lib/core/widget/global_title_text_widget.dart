@@ -10,11 +10,11 @@ class GlobalTitleTextWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       title,
-      style: const TextStyle(
+      style: TextStyle(
           fontWeight: FontWeight.bold,
           fontFamily: AppFonts.primaryFont,
           fontSize: 24,
-          color: AppColors.primaryColor),
+          color: Theme.of(context).colorScheme.primary),
     );
   }
 }
