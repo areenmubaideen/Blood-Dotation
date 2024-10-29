@@ -9,10 +9,6 @@ class CacheHelper {
     sharedPreferences = await SharedPreferences.getInstance();
   }
 
-  static bool? getData({required String key}) {
-    return sharedPreferences!.getBool(key);
-  }
-
   static dynamic getSaveData({required String key}) {
     return sharedPreferences!.get(key);
   }
@@ -36,10 +32,6 @@ class CacheHelper {
 
   static Future read(String key) async {
     return await json.decode(sharedPreferences!.getString(key)!);
-  }
-
-  static Future save(String key, value) async {
-    sharedPreferences!.setString(key, json.encode(value));
   }
 
   static Future remove(String key) async {

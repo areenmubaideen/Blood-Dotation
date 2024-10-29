@@ -15,7 +15,7 @@ class GlobalButton extends StatelessWidget {
       onTap: onTap,
       child: Container(
           width: double.infinity,
-          height: 60,
+          height: 50,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(12),
             color: Theme.of(context).colorScheme.primary,

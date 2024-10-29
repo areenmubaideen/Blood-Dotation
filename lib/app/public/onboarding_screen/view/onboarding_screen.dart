@@ -30,8 +30,6 @@ class OnboardingScreen extends StatelessWidget {
                   themeMode.updateTheme(ThemeMode.light);
                 } else if (themeMode.state == ThemeMode.light) {
                   themeMode.updateTheme(ThemeMode.dark);
-                } else {
-                  themeMode.updateTheme(ThemeMode.system);
                 }
               },
               child: Icon(
@@ -47,6 +45,7 @@ class OnboardingScreen extends StatelessWidget {
               width: 10,
             ),
             FloatingActionButton(
+              backgroundColor: Theme.of(context).colorScheme.primaryContainer,
               heroTag: "language",
               onPressed: () {
                 if (getIt<LocalizationsCubit>().state.languageCode == 'en') {

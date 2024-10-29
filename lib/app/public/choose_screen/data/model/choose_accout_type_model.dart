@@ -1,8 +1,8 @@
 class ChooseAccoutTypeModel {
   final String imagePath;
   final String title;
-  final bool isSelected;
+  final int index;
 
   ChooseAccoutTypeModel(
-      {required this.imagePath, required this.title, required this.isSelected});
+      {required this.imagePath, required this.title, required this.index});
 }

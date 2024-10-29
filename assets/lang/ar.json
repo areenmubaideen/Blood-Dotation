@@ -1,6 +1,16 @@
 {
     "Skip": "تخطي",
     "Login": "تسجيل الدخول",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "Remember me": "تذكرنى",
+    "Forgot Password?": "هل نسيت كلمة المرور؟",
+    "By logging, you agree to our": "عن طريق التسجيل، فإنك توافق على لدينا ",
+    "Terms & Conditions": "الشروط والاحكام ",
+    "and": " و ",
+    "PrivacyPolicy.": "سياسة الخصوصية.",
+    "Sign Up": "تسجيل",
+    "You don't have an account yet. Do you want to register an account?": "ليس لديك حساب بعد هل تريد تسجيل حساب ؟ ",
     "onboarding_title1": "انضم إلى مجتمع إنقاذ الحياة...",
     "onboarding_subtitle1": "تبرع بالدم لمساعدة المحتاجين. تصرفك الوحيد يمكن أن ينقذ حياة عدة أشخاص. ابدأ في إحداث فرق اليوم.",
     "onboarding_title2": "عملية التبرع بالدم سهلة",
@@ -11,5 +21,7 @@
     "Please select your account type to proceed, whether you want to donate or represent a hospital in need of support. Choose the option that best suits your role to help contribute to healthcare services.": "يرجى اختيار نوع حسابك للمتابعة، سواء كنت ترغب في التبرع أو كنت تمثل مستشفى يحتاج إلى دعم. اختر الخيار الذي يناسب دورك للمساهمة في تقديم الرعاية الصحية.",
     "Blood Doner": "متبرع بالدم",
     "Hospital Or Center blood Doner": "مستشفي او مركز التبرع بالدم",
-    "Continue": "متابعة"
+    "Continue": "متابعة",
+    "Welcome Back": "مرحباً بعودتك",
+    "We're excited to have you back! We can't wait to see the impact you've made since you last used the app.": "نحن متحمسون لعودتك! لا يمكننا الانتظار لرؤية ما حققته منذ آخر مرة استخدمت فيها التطبيق."
 }
