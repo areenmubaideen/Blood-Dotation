@@ -14,6 +14,7 @@ class GlobalSubTitleTextWidget extends StatelessWidget {
           fontWeight: FontWeight.w400,
           fontFamily: AppFonts.primaryFont,
           color: AppColors.greyLightColor),
+      textAlign: TextAlign.left,
     );
   }
 }
